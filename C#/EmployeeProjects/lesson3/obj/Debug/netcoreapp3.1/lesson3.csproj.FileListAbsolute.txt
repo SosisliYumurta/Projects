@@ -1,0 +1,14 @@
+C:\Users\Casper\source\repos\lesson3\lesson3\bin\Debug\netcoreapp3.1\lesson3.exe
+C:\Users\Casper\source\repos\lesson3\lesson3\bin\Debug\netcoreapp3.1\lesson3.deps.json
+C:\Users\Casper\source\repos\lesson3\lesson3\bin\Debug\netcoreapp3.1\lesson3.runtimeconfig.json
+C:\Users\Casper\source\repos\lesson3\lesson3\bin\Debug\netcoreapp3.1\lesson3.runtimeconfig.dev.json
+C:\Users\Casper\source\repos\lesson3\lesson3\bin\Debug\netcoreapp3.1\lesson3.dll
+C:\Users\Casper\source\repos\lesson3\lesson3\bin\Debug\netcoreapp3.1\lesson3.pdb
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.csproj.AssemblyReference.cache
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.AssemblyInfo.cs
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.dll
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.pdb
+C:\Users\Casper\source\repos\lesson3\lesson3\obj\Debug\netcoreapp3.1\lesson3.genruntimeconfig.cache
