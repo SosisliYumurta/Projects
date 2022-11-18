@@ -1,0 +1,14 @@
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\bin\Debug\netcoreapp3.1\ComputerIntro.exe
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\bin\Debug\netcoreapp3.1\ComputerIntro.deps.json
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\bin\Debug\netcoreapp3.1\ComputerIntro.runtimeconfig.json
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\bin\Debug\netcoreapp3.1\ComputerIntro.runtimeconfig.dev.json
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\bin\Debug\netcoreapp3.1\ComputerIntro.dll
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\bin\Debug\netcoreapp3.1\ComputerIntro.pdb
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.csproj.AssemblyReference.cache
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.AssemblyInfoInputs.cache
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.AssemblyInfo.cs
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.dll
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.pdb
+C:\Users\Casper\Desktop\Projects\C#\ComputerIntro\ComputerIntro\obj\Debug\netcoreapp3.1\ComputerIntro.genruntimeconfig.cache
