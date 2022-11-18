@@ -59,7 +59,6 @@ namespace lesson3
             return person = null;
         }
 
-        
     }
     class Program
     {

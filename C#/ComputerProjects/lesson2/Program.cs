@@ -8,6 +8,7 @@ class Computer
     private string _ipaddress;
     private string _os;
     private bool _switchOn;
+
     private static int counter = 0;
     public Computer(string bn, string os)
     {
@@ -37,6 +38,8 @@ class Computer
         
             return false;
     }
+
+   
     
    
 
@@ -63,6 +66,14 @@ class Computer
         set { _switchOn = value; }
     }
 
+}
+class Server : Computer
+{
+    public string destination;
+    public Server(String make, string dest) : base(make, dest)
+    {
+      this.destination = dest;
+    }
 }
 
 class Program
@@ -105,6 +116,10 @@ class Program
         }
 
         Console.WriteLine("We have {0} computers in our network.",Computer.NumOfComp());
+
+        Server server = new Server("beta", "dataBaseServer");
+        Console.WriteLine(server.Name +" "+ server.destination);
+         
     }
     
 }
