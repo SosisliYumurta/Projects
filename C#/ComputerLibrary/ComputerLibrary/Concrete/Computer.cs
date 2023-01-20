@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -68,7 +69,13 @@ namespace ComputerLibrary
                 }
             }
             else
-                Console.WriteLine("bulunamadı.");
+            {
+                DateTime now = DateTime.Now;
+                
+                Console.WriteLine("The computer you are pinging cannot be found");
+                ReportErrors("C:\\Users\\Casper\\Desktop\\error.txt", ("The computer you are pinging cannot be found "+now.ToString()));    
+            }
+
 
 
         }
@@ -93,6 +100,22 @@ namespace ComputerLibrary
         //{
         //    return "10.0.0." + (++compInNet).ToString();
         //}
+        static public void ReportErrors(string fullPath, string errorMessage)
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(fullPath))
+                {
+
+                    writer.WriteLine(errorMessage);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+        }
     }
 
 }

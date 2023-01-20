@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ComputerLibrary.Abstract
 {
-    class BaseDevice
+    public abstract class BaseDevice
     {
+        public void StartDevice()
+        {
+
+        }
     }
 }

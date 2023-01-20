@@ -51,6 +51,7 @@ namespace App_Netwrok_Abstract_Project
 
 			//Ping from alfa to 10.0.0.14
 			Computer.PingToComputer(network, alfa, "10.0.0.14");
+			Console.ReadLine();
 		}
 	}
 }

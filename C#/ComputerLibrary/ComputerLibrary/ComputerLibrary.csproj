@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\BaseDevice.cs" />
     <Compile Include="Abstract\IComputerService.cs" />
     <Compile Include="Concrete\Computer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

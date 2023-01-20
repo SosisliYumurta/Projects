@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,11 +14,11 @@ namespace app_network
         {
             List<Computer> network = new List<Computer>();
 
-            Computer alfa = new Computer("Alfa", "Windows", "10.10.10",false);
-            Computer beta = new Computer("Beta", "Pardus", "10.10.11",false);
-            Computer omega = new Computer("Omega", "Ubuntu", "10.10.12",false);
-            Computer teta = new Computer("Teta", "Linux", "10.10.13",false);
-           // Computer.PingToComputer(network, beta, "10.10.12");
+            Computer alfa = new Computer("Alfa", "Windows", "10.10.10", false);
+            Computer beta = new Computer("Beta", "Pardus", "10.10.11", false);
+            Computer omega = new Computer("Omega", "Ubuntu", "10.10.12", false);
+            Computer teta = new Computer("Teta", "Linux", "10.10.13", false);
+            // Computer.PingToComputer(network, beta, "10.10.12");
 
             network.Add(alfa);
             network.Add(beta);
@@ -25,10 +26,10 @@ namespace app_network
             network.Add(teta);
             Console.WriteLine(Computer.CountComp());
             Console.WriteLine(Computer.Running());
-            
+
 
             Computer.DisplayComputer(network);
-            
+
 
             foreach (var c in network)
             {
@@ -44,13 +45,10 @@ namespace app_network
             Console.WriteLine(Computer.CountComp());
             Console.WriteLine(Computer.Running());
 
-            Computer.PingToComputer(network, beta, "10.10.13");
-
-
-
-
-
+            Computer.PingToComputer(network, beta, "10.10.51515");
             Console.ReadLine();
         }
+       
     }
+
 }
