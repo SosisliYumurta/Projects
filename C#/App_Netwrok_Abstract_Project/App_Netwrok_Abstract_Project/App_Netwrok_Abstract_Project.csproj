@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="App_Netwrok_Abstract">
+      <HintPath>..\..\App_Netwrok_Abstract\App_Netwrok_Abstract\bin\Debug\App_Netwrok_Abstract.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
