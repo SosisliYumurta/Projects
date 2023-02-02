@@ -17,8 +17,9 @@ namespace EmployeeProject
                 ("berk", "junier developer", 2000, 25);
             Employee employee3 = new Employee
                 ("aydin", "senior developer", 2500, 31);
+            Boss boss1 = new Boss("gusi", "Boss", 5000, 45);
 
-            Developer developer1 = new Developer("gusi", "developer", 4500, 10);
+            Developer developer1 = new Developer("SosisliYumurta", "developer", 4500, 10);
 
             EmployeeManager employeeManager
                 = new EmployeeManager();
@@ -32,6 +33,7 @@ namespace EmployeeProject
             employees.Add(employee2);
             employees.Add(employee3);
             employees.Add(developer1);
+            employees.Add(boss1);
             employeeManager.GetAvarageSalary(employees);
             Console.WriteLine(Employee.NumberOfEmployee());
 
@@ -60,6 +62,7 @@ namespace EmployeeProject
 
 
             employeeManager.Fire(employees, employee2);
+            employeeManager.Fire(employees, boss1);
             employeeManager.PrintEmployee(employees);
 
             employeeManager.GetAvarageSalary(employees);

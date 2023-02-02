@@ -10,10 +10,18 @@ namespace EmployeeLibrary
     {
         public void Fire(List<Employee> employees, Employee employee)
         {
-            Employee.Counter--; 
-            employees.Remove(employee);
-            
-            
+            if (employee.Position == "Boss")
+            {
+                Console.WriteLine("You Cannot Fire The Boss");
+            }
+            else
+            {
+                Employee.Counter--;
+                employees.Remove(employee);
+            }
+
+
+
         }
 
         public double GetAvarageSalary(List<Employee> employees)
@@ -30,14 +38,14 @@ namespace EmployeeLibrary
             minSalary = employees[0].Salary;
             for (int i = 1; i < employees.Count; i++)
             {
-                
+
                 if (minSalary > employees[i].Salary)
                     minSalary = employees[i].Salary;
                 else
                     maxSalary = employees[i].Salary;
             }
 
-            Console.WriteLine("Avarage Salary= {0}, Maximum salary= {1}, Minimum salary= {2} ",Math.Round(averageSalary / Employee.NumberOfEmployee(), 1),maxSalary,minSalary);
+            Console.WriteLine("Avarage Salary= {0}, Maximum salary= {1}, Minimum salary= {2} ", Math.Round(averageSalary / Employee.NumberOfEmployee(), 1), maxSalary, minSalary);
             return averageSalary;
 
         }
